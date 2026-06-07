@@ -78,7 +78,7 @@ export const budgetSectionInputs: BudgetSectionInput[] = [
       },
       {
         title: 'ตั๋วเครื่องบิน ขากลับ (NRT ➔ CNX)',
-        subtitle: 'บินตรงฟูลเซอร์วิสจากสนามบินนาริตะโตเกียว มุ่งตรงกลับสู่กรุงเทพฯ',
+        subtitle: 'บิน Singapore Airline ต่อเครื่องที่ BKK',
         thb: 13_000,
       },
       {
@@ -89,7 +89,7 @@ export const budgetSectionInputs: BudgetSectionInput[] = [
       {
         title: 'โรงแรม Hotel Groove Shinjuku, A Park Royal (1 คืน)',
         subtitle: 'ที่พักย่านชินจูกุ คืนที่ 4 (19 ก.พ.)',
-        thb: 3_500,
+        thb: 3_700,
       },
       {
         title: 'เรียวกัง Yamadaya Hotel คาวากุจิโกะ (1 คืน)',
@@ -123,16 +123,10 @@ export const budgetSectionInputs: BudgetSectionInput[] = [
         jpy: 6_250,
       },
       {
-        title: '1-Day Tour อาซาฮิยามะ + นิเกิ้ลเทอเรซ',
+        title: '1-Day Tour Asahiyama + Ningle Terrace + Asahiyama Zoo + Shirogai Pond',
         subtitle: 'ตั๋ววันเดย์ทัวร์รถบัสไปเมืองอาซาฮิคาว่า จองผ่านแอป Trip.com',
         thb: 1_442,
         jpy: 6_000,
-      },
-      {
-        title: 'ตั๋วเข้าสวนสัตว์ Asahiyama Zoo',
-        subtitle: 'ค่าผ่านประตูหน้าด่านสวนสัตว์เพื่อชมขบวนพาเหรดเพนกวิน',
-        thb: 240,
-        jpy: 1_000,
       },
       {
         title: 'รถบัสสกี Hokkaido Resort Liner (ไป-กลับ)',
@@ -147,10 +141,10 @@ export const budgetSectionInputs: BudgetSectionInput[] = [
         jpy: 1_150,
       },
       {
-        title: 'รถไฟเข้าเมืองโตเกียว (Keisei Access)',
+        title: 'รถไฟไปกลับสนามบิน Narita Express',
         subtitle: 'ค่าโดยสารรถไฟเชื่อมต่อจากสนามบินนาริตะ ➔ เข้าสู่ใจกลางโตเกียว',
-        thb: 315,
-        jpy: 1_300,
+        thb: 1_080,
+        jpy: 5_200,
       },
       {
         title: 'รถบัสด่วน Highway Bus (ขาไปฟูจิ)',
@@ -183,12 +177,6 @@ export const budgetSectionInputs: BudgetSectionInput[] = [
         jpy: 800,
       },
       {
-        title: 'รถไฟกลับสนามบินนาริตะ (วันสุดท้าย)',
-        subtitle: 'ตั๋วรถไฟ Keisei Access Express เชื่อมต่อเข้าอาคารสนามบินนาริตะ',
-        thb: 325,
-        jpy: 1_350,
-      },
-      {
         title: 'เงินกองกลางเติมบัตร Suica / IC Card',
         subtitle: 'สำรองงบสำหรับแตะสแกนรถไฟใต้ดินยิบย่อยในซัปโปโรและโตเกียว',
         thb: 600,
@@ -206,32 +194,32 @@ export const budgetSectionInputs: BudgetSectionInput[] = [
       {
         title: 'มื้ออาหารหลักมาตรฐาน (ทั้งหมด 18 มื้อ)',
         subtitle: 'เฉลี่ย 1,200เยนต่อมื้อ สำหรับราเมงร้อน, ข้าวหน้าเนื้อ, ข้าวหน้าปลาดิบตามตลาดสด',
-        thb: 5_200,
-        jpy: 21_600,
+        thb: 5_000,
+        jpy: 20_000,    
       },
       {
         title: 'มื้อฉลองพิเศษ 1: เจงกิสข่าน (ปิ้งย่างเนื้อแกะ)',
         subtitle: 'จัดมื้อเย็นอาหารพื้นเมืองขึ้นชื่อ ทานที่ Sapporo Beer Museum',
-        thb: 960,
-        jpy: 4_000,
+        thb: 580,
+        jpy: 2_600,
       },
       {
         title: 'มื้อฉลองพิเศษ 2: อุด้งหม้อไฟผักต้มโฮโต (Hoto)',
         subtitle: 'อาหารพื้นเมืองรสเด็ดร้อนๆ ประจำโซนฟูจิ คาวากุจิโกะ',
-        thb: 720,
-        jpy: 3_000,
+        thb: 320,
+        jpy: 1_500,
       },
       {
         title: 'มื้อฉลองพิเศษ 3: บุฟเฟต์เนื้อย่าง Yakiniku พรีเมียม',
         subtitle: 'มื้อเย็นปาร์ตี้ส่งท้ายทริปสุดยิ่งใหญ่ที่ย่านชิบูย่า โตเกียว',
-        thb: 1_200,
+        thb: 1_000,
         jpy: 5_000,
       },
       {
-        title: 'เสบียงน้ำดื่ม ขนม และของกินเล่นมินิมาร์ท',
-        subtitle: 'เฉลี่ยตุนวันละ 1,000เยน ในร้านสะดวกซื้อ Lawson / 7-11 ตลอดทริป 9 วัน',
-        thb: 2_465,
-        jpy: 10_000,
+        title: 'น้ำดื่ม ขนม และของกินเล่นมินิมาร์ท',
+        subtitle: 'เฉลี่ยวันละ 500 เยน ในร้านสะดวกซื้อ Lawson / 7-11 ตลอดทริป 9 วัน',
+        thb: 1_230,
+        jpy: 5_000,
       },
     ],
   },
@@ -249,6 +237,13 @@ export const budgetSectionInputs: BudgetSectionInput[] = [
         jpy: 9_600,
       },
       {
+        title: 'Disney Premier Access (DPA) 2 เครื่องเล่น',
+        subtitle:
+          'Rapunzel\'s Lantern Festival + Anna and Elsa\'s Frozen Journey (Fantasy Springs) ราคา ~2,000 เยน/เครื่อง ซื้อผ่านแอป Tokyo Disney Resort',
+        thb: 960,
+        jpy: 4_000,
+      },
+      {
         title: 'ตั๋วขึ้นกระเช้าลอยฟ้า Mt.Moiwa Ropeway',
         subtitle: 'ตั๋วขึ้น-ลงกระเช้าสำหรับไปจุดชมวิวไฟเมืองซัปโปโร',
         thb: 500,
@@ -257,8 +252,8 @@ export const budgetSectionInputs: BudgetSectionInput[] = [
       {
         title: 'บัตรผ่านประตูเข้าคลับ Atom Shibuya',
         subtitle: 'ค่าเข้าปาร์ตี้กลางคืนย่านโตเกียว (ราคารวมตั๋วเครื่องดื่มฟรี 1 แก้ว)',
-        thb: 965,
-        jpy: 4_000,
+        thb: 360,
+        jpy: 1_900,
       },
       {
         title: 'ค่าเช่าเซ็ตแผ่นสกี / สโนว์บอร์ด ค่ากระเช้าขึ้น',
@@ -273,9 +268,9 @@ export const budgetSectionInputs: BudgetSectionInput[] = [
         jpy: 4_500,
       },
       {
-        title: 'เงินช้อปปิ้งส่วนตัว และ ซื้อของฝากกล่อง',
-        subtitle: 'ตุนขนมกล่องฮอกไกโด เสื้อผ้าชิบูย่า และของที่ระลึกจาก DisneySea',
-        thb: 4_800,
+        title: 'เงินช้อปปิ้งส่วนตัว และ ซื้อของฝาก',
+        subtitle: 'ขนม เสื้อผ้า และของที่ระลึก',
+        thb: 5_000,
         jpy: 20_000,
       },
     ],
