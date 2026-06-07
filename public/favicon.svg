@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Japan 2027">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#ff007f"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0a192f"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="url(#g)" stroke-width="2" opacity="0.35"/>
+  <g transform="translate(32 30)" stroke="#c8e6ff" stroke-width="1.8" stroke-linecap="round">
+    <line y1="-12" y2="12"/>
+    <line x1="-12" y1="0" x2="12" y2="0"/>
+    <line x1="-8.5" y1="-8.5" x2="8.5" y2="8.5"/>
+    <line x1="8.5" y1="-8.5" x2="-8.5" y2="8.5"/>
+    <line x1="0" y1="-12" x2="-3.5" y2="-7"/>
+    <line x1="0" y1="-12" x2="3.5" y2="-7"/>
+    <line x1="0" y1="12" x2="-3.5" y2="7"/>
+    <line x1="0" y1="12" x2="3.5" y2="7"/>
+    <line x1="-12" y1="0" x2="-7" y2="-3.5"/>
+    <line x1="-12" y1="0" x2="-7" y2="3.5"/>
+    <line x1="12" y1="0" x2="7" y2="-3.5"/>
+    <line x1="12" y1="0" x2="7" y2="3.5"/>
+  </g>
+  <circle cx="32" cy="30" r="2.5" fill="#00f2fe"/>
+  <text x="32" y="54" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="9" font-weight="700">2027</text>
+</svg>

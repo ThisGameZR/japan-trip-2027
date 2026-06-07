@@ -26,6 +26,11 @@
   --animate-title-in: title-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-ripple: ripple-expand 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-icon-pop: icon-pop 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-snow-fall: snow-fall 10s linear infinite;
+}
+
+.snow-flake {
+  animation: snow-fall var(--snow-duration, 10s) linear infinite;
 }
 
 @keyframes icon-pop {
@@ -37,6 +42,15 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes snow-fall {
+  0% {
+    transform: translate3d(0, -10vh, 0);
+  }
+  100% {
+    transform: translate3d(var(--snow-drift, 0px), 110vh, 0);
   }
 }
 
@@ -183,9 +197,7 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    *,
-    *::before,
-    *::after {
+    :where(:not(.snow-scene, .snow-scene *)) {
       animation-duration: 0.01ms !important;
       animation-iteration-count: 1 !important;
       transition-duration: 0.01ms !important;

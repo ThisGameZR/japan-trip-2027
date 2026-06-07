@@ -1,11 +1,13 @@
 import { AnimatePresence, MotionConfig } from 'motion/react';
 import { useReducedMotion } from '../hooks/useReducedMotion';
+import BackgroundMusic from './BackgroundMusic';
 import Header from './Header';
 import PageTransition from './PageTransition';
 import ParticleCanvas from './ParticleCanvas';
 import ScrollProgress from './ScrollProgress';
 import ScrollToTop from './ScrollToTop';
 import SmoothScroll from './SmoothScroll';
+import Snowfall from './Snowfall';
 
 export default function Layout() {
   const reduced = useReducedMotion();
@@ -13,7 +15,9 @@ export default function Layout() {
   return (
     <MotionConfig reducedMotion={reduced ? 'always' : 'user'}>
       <SmoothScroll>
+        <Snowfall />
         <ParticleCanvas />
+        <BackgroundMusic />
         <ScrollProgress />
         <ScrollToTop />
         <Header />
